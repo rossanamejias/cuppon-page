@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;500&family=Roboto:wght@300;500&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+:root{
+    --primary:#212529;
+    --secundary: #707070;
+    --success: #FFFFFF80;
+    --border-menu: #FFFFFF7F;
+    --white: #ffffff;
+    --green: #28a745;
+    --gray:#DDDDDD;
+    --gray-borde:#F8F9FA;
+}
+
+.navbar{
+    background-color: var(--green)!important;
+}
+
+.navbar-nav li a{
+    color: var(--success);
+}
+
+.navbar-nav .nav-link.active,.navbar-nav li a:hover{
+    color: var(--white);
+}
+
+.navbar-brand img, footer img{
+    width:86px!important; 
+    height:25px!important;
+}
+
+.navbar-toggler{
+    border-color: var(--success);
+    padding: 10px 18px;
+}
+
+.menuBurger i{
+    color: var(--border-menu);
+}
+
+.card-title{
+    font-size: 20px;
+    font-weight: 300;
+    color: var(--primary);
+}
+
+.card-text{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--secundary);
+    margin-bottom: 0;
+}
+
+.card-ubi{
+    font-size: 13px;
+    font-weight: 300;
+    color: var(--secundary);
+}
+
+.price{
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--secundary);
+}
+
+.price-fin{
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--green);
+}
+
+.formulario{
+    background-color: var(--green)!important;
+    margin-bottom: 3rem;
+}
+
+::placeholder {
+    font-size: 16px;
+    font-weight: 300;
+    color: var(--secundary);
+}
+
+.formulario button{
+    background-color: var(--gray-borde);
+    border: 1px solid var(--gray);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+.formulario button:hover{
+    background-color: var(--secundary);
+    border: 1px solid var(--secundary);
+    color: var(--white);
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: 500;
+
+}
+
+footer p{
+    font-size: 16px;
+    font-weight: 300;
+}
+
